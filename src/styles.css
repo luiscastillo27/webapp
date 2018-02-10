@@ -1,0 +1,217 @@
+body{
+  background: #F6F7FB !important;
+}
+
+.container{
+  width: 85% !important;
+  margin: 0px auto;
+}
+
+.navbar-fixed{
+  background: none !important;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  z-index: 1270;
+}
+
+.nav-img{
+  display: block;
+  width: 60px;
+}
+
+.nav-link{
+  color: #0094EA !important;
+}
+
+.nav-link.active{
+  color: #fff !important;
+  background: #0094EA;
+  border-radius: 10px;
+}
+
+.section{
+  display: block;
+}
+
+.container{
+  display: block;
+}
+
+.section.inicio{
+  background: #F9FAFD;
+}
+
+.section.inicio h1,
+.section.inicio h2{
+  text-align: center;
+  text-shadow: 0px 1px 2px #000;
+  position: absolute;
+  color: #fff;
+  right: 0px;
+  left: 0px;
+  margin-top: -30px;
+  font-size: 43px;
+}
+
+.section.inicio h2{
+  margin-top: -5px;
+  font-size: 27px;
+  color: #3B3CA9 !important;
+}
+
+.espacio-menu{
+  display: block;
+  padding: 10px;
+  height: 40px;
+}
+
+.seccion-inicio{
+  display: block;
+  text-align: justify;
+}
+
+.info-inicio{
+  display: block;
+  margin-top: -50px;
+}
+
+.info-inicio img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.list{
+  display: block;
+}
+
+.section.beneficios{
+  background: #F6F7FB;
+}
+
+.section.beneficios h2{
+  font-size: 20px;
+}
+
+.section.beneficios p{
+  text-align: justify;
+}
+
+.section.beneficios span{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -25px;
+  margin-right: -25px;
+  background: #fff;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 3.2;
+  border: solid 1px #ddd;
+}
+
+.card.icon{
+  position: relative;
+}
+
+.section.caracteristicas{
+  background: #F9FAFD !important;
+}
+
+.text-center{
+  margin: 0px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.text-center img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section.planes{
+  background: #F6F7FB;
+}
+
+.section.planes .card-body h3{
+  font-size: 20px !important;
+}
+
+.section.planes .card-body p{
+  font-size: 12px !important;
+}
+
+.section .precio{
+  text-align: center;
+  font-size: 35px;
+}
+
+.btn-center{
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background: #0094EA;
+  color: #fff;
+  text-align: center;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+.btn-center:hover{
+  background: #3B3CA9;
+  color: #fff;
+}
+
+/************************************************
+	TABLET
+*************************************************/
+@media screen and (min-width:700px){
+
+  .container{
+    width: 600px !important;
+  }
+
+  .info-inicio{
+    width: 50%;
+    margin-top: -150px;
+    float: right;
+  }
+
+}
+/************************************************
+	PC
+*************************************************/
+@media screen and (min-width:993px){
+
+  .container{
+    width: 700px !important;
+  }
+
+  .section.inicio h1{
+    font-size: 70px;
+    margin-top: -50px;
+  }
+
+  .section.inicio h2{
+    font-size: 40px;
+  }
+
+  .espacio-menu{
+    height: 80px;
+  }
+
+  .info-inicio{
+    width: 50%;
+    margin-top: -172px;
+    float: right;
+  }
+
+}

@@ -1,0 +1,12 @@
+<app-menu></app-menu>
+<app-inicio></app-inicio>
+<app-beneficios></app-beneficios>
+<app-caracteristicas></app-caracteristicas>
+<app-planes></app-planes>
+<app-contacto></app-contacto>
+
+<ul>
+  <li class="text" *ngFor="let usuario of usuarios | async">
+    {{usuario.nombre}}
+  </li>
+</ul>
